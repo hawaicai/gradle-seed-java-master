@@ -1,0 +1,14 @@
+.DS_Store
+*.ipr
+*.iml
+*.iws
+build
+out
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Eclipse porject-specific files
+.classpath
+.project
+.settings
+bin

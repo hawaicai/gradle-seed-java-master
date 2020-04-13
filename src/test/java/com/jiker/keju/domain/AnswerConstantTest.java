@@ -1,0 +1,15 @@
+package com.jiker.keju.domain;
+
+import org.junit.Test;
+
+import java.lang.reflect.Constructor;
+
+public class AnswerConstantTest {
+    @Test
+    public void pass_cobertura() throws Exception {
+        // when
+        Constructor<?>[] declaredConstructors = AnswerConstant.class.getDeclaredConstructors();
+        declaredConstructors[0].setAccessible(true);
+        declaredConstructors[0].newInstance();
+    }
+}
